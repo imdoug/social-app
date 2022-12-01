@@ -1,25 +1,20 @@
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* fonts */
+@font-face {
+  font-family: "Roboto Bold" ;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
+@font-face {
+  font-family: "Roboto Med" ;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+@font-face {
+  font-family: "Roboto Light" ;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 }
-.logo.preact:hover {
-  filter: drop-shadow(0 0 2em #673ab8aa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* colors */
+:root {
+  --yellow: #FCF430;
+  --purple: #9E59D2;
+  --white: #FCFCFC;
+  --black: #282828;
 }

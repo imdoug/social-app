@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Footer.css'
+import '../../css/Footer.css'
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter} from 'react-icons/bs'
 import { FaTiktok } from 'react-icons/fa'
 
