@@ -1,15 +1,12 @@
 footer {
-      padding-top: 20px;
+      padding-top: 10px;
       display: flex;
       flex-direction: column;
       height: 60px;
       justify-content: space-between;
       align-items: center;
-      position: absolute;
-      bottom: 0;
-      left: 0;
       width: 100%;
-      background-color: var(--black);
+      background-color: var(--bg-color);
 }
 footer p{
       color: var(--white);
@@ -25,14 +22,8 @@ footer p{
       display: flex;
       justify-content: space-between;
       min-width: 162px;
-      background: var(--black);
+      background-color: var(--bg-color);
 } 
-.app_footer_social-icons a{
-      color: var(--purple);
-}
-.app_footer_social-icons a:hover{
-      opacity: 0.8;
-}
 .app_footer_copyright-text{
       margin-left: 30px;
       display: flex;

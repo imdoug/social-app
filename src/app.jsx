@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { Home, Login , Register} from './pages'
+import { Home, Login , Register, Chat} from './pages'
 import { AuthProvider } from './services/AuthContext';
 import './app.css'
 
@@ -19,6 +19,7 @@ export function App() {
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/chat' element={<Chat />} />
         </Routes>
       </AuthProvider>
     </Router>

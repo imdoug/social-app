@@ -10,7 +10,7 @@ const PageHOC = (Component ) => () => {
   const navigate = useNavigate();
 
   return (
-      <div style={{width: '100%'}} >
+      <div style={{marginTop: 70}} >
             <Nav/>
             {/* {showAlert?.status && <Alert type={showAlert.type} message={showAlert.message} />} */}
             <Component />

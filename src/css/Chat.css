@@ -1,0 +1,281 @@
+.app_chat-page_container{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 20px;
+}
+p{
+      margin: 8px 0px;
+}
+/* LEFT COMPONENT */
+.app_chat-page_left{
+      width: 30%;
+      height: 700px;
+      min-width: 400px;
+      border-radius: 32px;
+      overflow: scroll;
+      padding: 10px 15px;
+}
+.app_chat-page_left-userContent{
+      width: 100%;
+      height: 100px;
+      min-width: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 32px;
+      background-color: var(--component-bg);
+      margin-bottom: 20px;
+}
+.app_chat_search-users-container{
+      width: 100%;
+      display: flex;
+      margin-top: -10px;
+      margin-bottom: 20px;
+      justify-content: center;
+      align-items: center;
+      min-width: 400px;
+}
+.app_input-users-search{
+      margin: 0 auto;
+      width: 90%;
+      height: 60px;
+      border: none;
+      background-color: var(--component-bg);
+      text-indent: 20px;
+      color: #fff;
+      font-size: 16px;
+      border-top-left-radius: 32px;
+      border-bottom-left-radius: 32px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      outline: none;
+}
+.app_input-users-search-btn{
+      background-color: transparent;
+      border: none;
+      background-color: var(--component-bg);
+      border-top-right-radius: 32px;
+      border-bottom-right-radius: 32px;
+      padding: 5px 5px 5px 7px;
+      border: 1px solid #FFF;
+      border-radius: 50%;
+      margin-right: 10px;
+      cursor: pointer;
+}
+.app_input-users-search-btn:hover{
+      border: 1px solid var(--hover);
+}
+.chat-search-icon{
+      color:#FFF;
+}
+.app_input-users-search-btn:hover .chat-search-icon{
+      color:var(--hover);
+}
+.app_input-users-search::placeholder{
+      color: #fff;
+      opacity: 0.7;
+      font-size: 16px;
+      text-indent: 20px;
+}
+.app_chat_btn-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10%;
+      background-color: var(--component-bg);
+      height: 60px;
+      border-top-right-radius: 32px;
+      border-bottom-right-radius: 32px;
+}
+.app_chat-page_left-userContent-img-container{
+      width: 60px;
+      height: 60px;
+      margin-left: 25px;
+      position: relative;
+}
+.app_chat-page_left-userContent-img{
+      width: 100%;
+      border-radius: 50%;
+}
+/* user on - off bubble */
+.user_on{
+      background-color: rgb(38, 200, 38);
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+}
+.user_off{
+      background-color: rgb(119, 120, 119);
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+}
+.app_chat-page_left-userContent-info{
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 25px;
+}
+/* unread messages pop up */
+.app_chat-unread-messages-bubble{
+      font-size: 14px;
+      background-color: var(--hover);
+      padding: 3px 5px 3px 5px;
+      border-radius: 50%;
+}
+/* RIGHT COMPONENT */
+.app_chat-page_right{
+      width: 60%;
+      height: 700px;
+      padding: 10px;
+      background-color: var(--component-bg);
+      border-radius: 32px;
+      display: flex;
+      flex-direction: column;
+}
+/* input area  */
+.chat-input-container{
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+}
+.chat-input{
+      width: 85%;
+      height: 60px;
+      border-radius: 32px;
+      background-color: #FFF;;
+}
+.chat-media-btn{
+      margin-left: 10px;
+      width: 20px;
+      height: 60px;
+      cursor: pointer;
+}
+.chat-submit-btn{
+      margin-right: 20px;
+      width: 60px;
+      height: 60px;
+}
+.chat-submit-btn button{
+      width: 100%;
+      height: 100%;
+      border-radius: 32px;
+      background-color: #3dc5b7;
+      border: none;
+      color: #FFF;
+      cursor: pointer;
+}
+.chat-submit-btn button:hover{
+      border: 1px solid #3dc5b7;
+      color: #3dc5b7;
+      background-color: transparent;
+      transition: 0.3s;
+}
+.chat-media-btn button{
+      width: 100%;
+      height: 100%;
+      border-radius: 32px;
+      background-color: transparent;
+      border: none;
+      color: #FFF;
+      cursor: pointer;
+}
+.chat-media-btn button:hover{
+      color: #3dc5b7;
+}
+.app_chat_no-active-users{
+      text-align: center;
+      padding: 10px;
+}
+/* chat  */
+.app_chat-container{
+      min-height: 625px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+}
+.app_chat-bubble-receiver{
+      margin-left: 20px;
+      max-width: 80%;
+      padding-top: 20px;
+      display: flex;
+}
+.app_chat-bubble-sender p{
+      background-color: var(--hover);
+      padding: 5px;
+      border-radius: 16px;
+      padding: 10px;
+}
+.app_chat-bubble-sender{
+      margin-right: 20px;
+      max-width: 80%;
+      padding-top: 20px;
+      align-self: flex-end;
+
+}
+.app_chat-bubble-img-container{
+      width: 80px;
+      text-align: center;
+
+}
+.app_chat-bubble-img-container p{
+      padding: 0;
+      margin: 0;
+}
+.app_chat-bubble-img{
+      width: 70px;
+      border-radius: 50%;
+}
+.app_chat-bubble-text {
+      height: fit-content;
+      background-color: var(--component-bg);
+      padding: 5px;
+      border-radius: 16px;
+      padding: 5px 10px;
+      background-color: var(--bg-color);
+      margin-left: 20px;
+}
+.app_chat-empty-currentChat{
+      height: 625px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.app_chat-empty-currentChat h4{
+      margin-top: 10px;
+      margin-bottom: 0;
+}
+.app_chat-empty-currentChat p{
+      margin: 4px 0;
+}
+.app_chat-empty-currentChat img{
+      background-color: red;
+      width: 360px;
+      height: 200px;
+}
+/* media queries */
+@media screen and (max-width: 1100px) {
+      .app_chat-page_right{
+            width: 450px
+      }
+}
+/* mobile version */
+@media screen and (max-width: 900px) {
+      .app_chat-page_right{
+            display: none;
+      }
+}

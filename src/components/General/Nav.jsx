@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../../css/Nav.css'
 import { AiOutlineLogout } from 'react-icons/ai'
 import { RxHamburgerMenu } from 'react-icons/rx'
-import { MdClose } from 'react-icons/md'
+import { MdClose, MdNotificationsNone } from 'react-icons/md'
 import { BiJoystick, BiChat } from 'react-icons/bi'
 import { CgProfile } from 'react-icons/cg'
 
@@ -29,12 +29,12 @@ const Nav = () => {
                         SOME LOGO
                   </div>
                   <div className='app_nav_links-container'>
-                        <Link to="/" ><BiJoystick size={28}/> </Link>
-                        <Link to="/" ><BiChat size={28}/> </Link>
-                        <Link to="/" ><CgProfile size={28}/></Link>
+                        <Link to="/" >GAMES </Link>
+                        <Link to="/chat" >CHATS</Link>
+                        <Link to="/" >PROFILE</Link>
+                        <Link to="/" ><MdNotificationsNone size={28}/></Link>
                         <AiOutlineLogout 
                               size={28} 
-                              color={''} 
                               onClick={handleLogOut} 
                               className="app_logout-btn"
                         />
@@ -53,7 +53,7 @@ const Nav = () => {
                         <Link to="/" >
                               <BiJoystick/> GAMES
                         </Link>    
-                        <Link to="/" >
+                        <Link to="/chat" >
                               <BiChat/>  CHATS
                         </Link>   
                         <Link to="/" >

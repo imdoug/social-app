@@ -5,7 +5,7 @@ import { FaTiktok } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div style={{width: '100%'}}>
+    <div>
       <footer>
         <div className='white-line'></div>
         <div className='app_footer_content'>

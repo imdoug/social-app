@@ -1,4 +1,5 @@
 nav {
+      padding-top: 10px;
       display: flex;
       flex-direction: row;
       width: 100%;
@@ -8,7 +9,8 @@ nav {
       position: fixed;
       top: 0;
       left: 0;
-      background-color: black;
+      background-color: var(--bg-color);
+      z-index: 5;
 }
 .app_nav_logo-container{
       margin-left: 30px;
@@ -44,7 +46,7 @@ nav {
       z-index: 1;
       top: 0;
       right: 0;
-      background-color: #111;
+      background-color: var(--bg-color);
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
@@ -76,7 +78,6 @@ nav {
     .openbtn {
       font-size: 20px;
       cursor: pointer;
-      background-color: #111;
       color: white;
       padding: 10px 15px;
       border: none;

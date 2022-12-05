@@ -13,8 +13,19 @@
 }
 /* colors */
 :root {
-  --yellow: #FCF430;
+  /* --yellow: #FCF430;
   --purple: #9E59D2;
   --white: #FCFCFC;
-  --black: #282828;
+  --black: #282828; */
+  --bg-color: #4e436d;
+  --hover: #F0AA86;
+  --component-bg: #5c4e82;
 }
+body{
+  background-color: var(--bg-color);
+}
+#app{
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
