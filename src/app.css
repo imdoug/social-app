@@ -28,4 +28,7 @@ body{
   width: 100%;
   background-color: var(--bg-color);
 }
+input{
+  outline: none;
+}
 

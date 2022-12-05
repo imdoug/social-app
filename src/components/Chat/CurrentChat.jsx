@@ -47,7 +47,7 @@ const CurrentChat = ({currentChat, user}) => {
                  <div className="app_chat-empty-currentChat">
                              <img src="" alt="multiple-devices" />
                              <h4>APP NAME</h4>
-                             <p>Send and receive messages from any or to any device.</p>
+                             <p>Send and receive messages from any device.</p>
                  </div>
            </> }
      </div>

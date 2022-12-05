@@ -9,7 +9,7 @@ const Chat = () => {
       const userArray = []
       const [notifications, setNotifications] = useState(false)
       const [isOn, setIsOn] = useState(false)
-      const [currentChat, setCurrentChat] = useState(true)
+      const [currentChat, setCurrentChat] = useState(false)
       const handleSearch = () =>{
 
       }

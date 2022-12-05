@@ -21,8 +21,10 @@ nav {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      width: 15%;
+      width: 40%;
       min-width: 225px;
+      font-size: 18px;
+      letter-spacing: 1px;
 }
 .app_nav_links-hamburger{
       display: none;

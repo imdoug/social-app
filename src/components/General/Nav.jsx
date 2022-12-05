@@ -31,7 +31,7 @@ const Nav = () => {
                   <div className='app_nav_links-container'>
                         <Link to="/" >GAMES </Link>
                         <Link to="/chat" >CHATS</Link>
-                        <Link to="/" >PROFILE</Link>
+                        <Link to="/profile" >PROFILE</Link>
                         <Link to="/" ><MdNotificationsNone size={28}/></Link>
                         <AiOutlineLogout 
                               size={28} 
