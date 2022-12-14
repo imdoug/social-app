@@ -6,7 +6,7 @@ import { fadeIn, staggerContainer, planetVariants } from '../utils/motion'
 import { newFeatures } from '../constants'
 
 const WhatsNew = () => (
-  <section className={`${styles.paddings} relative z-[10]`}>
+  <section className={`${styles.paddings} relative z-10`}>
   <motion.div
     variants={staggerContainer}
     initial="hidden"
